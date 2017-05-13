@@ -1,0 +1,41 @@
+
+
+	.navbar{
+				border: 0;
+			}
+
+			strong{
+				font-size: 20px;
+			}
+
+			.jumbotron p{
+				font-weight: normal;
+				font-size: 18px;
+			}
+
+			.jumbotron img{
+				margin-bottom: 15px;
+			}
+
+			.prtfimg img{
+				width: 200px;
+				height: 150px;
+			}
+
+			.jumbotron{
+				margin-bottom: 40px;
+			}
+
+			.fblock{
+				margin-bottom: 20px;
+			}
+
+	strong, .jumbotron, i, b{
+		color: #DAD0CA;	
+			
+	}
+
+	.connect{
+		margin-bottom: 30px;
+	}
+
