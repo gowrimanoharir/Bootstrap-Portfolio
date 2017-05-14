@@ -1,41 +1,54 @@
-
+/*Style to apply on top of bootstrap classes*/
 
 	.navbar{
-				border: 0;
-			}
+		border: 0;
+	}
 
-			strong{
-				font-size: 20px;
-			}
-
-			.jumbotron p{
-				font-weight: normal;
-				font-size: 18px;
-			}
-
-			.jumbotron img{
-				margin-bottom: 15px;
-			}
-
-			.prtfimg img{
-				width: 200px;
-				height: 150px;
-			}
-
-			.jumbotron{
-				margin-bottom: 40px;
-			}
-
-			.fblock{
-				margin-bottom: 20px;
-			}
+	/*Change all content font color*/
 
 	strong, .jumbotron, i, b{
 		color: #DAD0CA;	
-			
+	}
+	
+	/*Change header font size*/
+	strong{
+		font-size: 20px;
 	}
 
+	/*Change alignment, spacing and font size for About section*/
+
+	.jumbotron{
+		margin-bottom: 40px;
+	}
+
+	.jumbotron p{
+		font-weight: normal;
+		font-size: 18px;
+	}
+
+	/*Change spacing and img size for Portfolio section*/
+	.jumbotron img{
+		margin-bottom: 15px;
+	}
+
+	.prtfimg img{
+		width: 200px;
+		height: 150px;
+	}
+
+	.fblock{
+		margin-bottom: 20px;
+	}
+
+	/*Change spacing for Connect with me section*/
+
 	.connect{
-		margin-bottom: 30px;
+		margin-bottom: 50px;
+	}
+
+	/*Change width and background for footer section*/
+	.footer{
+		width: 100%;
+		background-color: #1c1e22;
 	}
 

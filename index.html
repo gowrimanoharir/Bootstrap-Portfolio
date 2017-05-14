@@ -8,26 +8,31 @@
 		<!--Meyer reset CSS to reset browser default settings-->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-		<!--CSS to style the website using Bootstrap-->
+		<!--CSS to style the website using Bootstrap classes-->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-		
+		<!--CSS to apply theme to the website using Bootswatch theme called Slate-->
 		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css">
 
+		<!--CSS to apply connect with me icons to the website using Font awesome classes-->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<!--Override CSS to apply required changes to styles from above 3 CSS-->
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 
 	</head>
 
 	<body>
-		<!--whole page-->
+		<!--define entire page as container-->
 			<div class="container">
+
+				<!--building bootstrap navigation bar / header-->
 					<nav class="navbar navbar-default">
 					  <div class="container-fluid">
 						    <div class="navbar-header">
 						      <a class="navbar-brand" href="index.html"><strong>Gowri M Rajasekaran</strong></a>
 						    </div>
+
 						    <ul class="nav navbar-nav navbar-right">
 						      	<li><a href="index.html"><b>About</b></a></li>
 						        <li><a href="portfolio.html"><b>Portfolio</b></a></li>
@@ -36,24 +41,29 @@
 					</nav>
 
 				
+				<!--building bootstrap Jumbotron for main content-->
 					<div class="jumbotron">
+
+					<!--building bootstrap grid with one row and 2 columns for about me & image-->
 					  <div class="container row">
 
-					    	<div class="col-md-4 col-xs-12">
+						<!--defining mid size and small size bootstrap columns for reponsiveness-->
+					    	<div class="col-md-4  col-xs-12">
 					    		<img src="http://lorempixel.com/250/350/" class="img-responsive center-block">
 					    	</div>
 
-					    	<div class="col-md-8 col-xs-12 text-justify abtfnt">
+					    	<div class="col-md-8  col-xs-12 text-justify abtfnt">
 
 								<p>Hi! This is me, Gowri. I am an experienced Software Quality Assurance professional who started my career as an application tester and have since moved to test management roles with expertise in functional testing of web applications.</p>
 								<br>
 								<p>Having spent several years in web application testing, I have always been curious and interested to know the nuts and bolts on the development side. To that effect, I have now started the journey in learning Full Stack Web Development.</p>
 								<br>
-								<p>Check back later to see my journey and the progress I have made on my new career track.</p>					    		
-
+								<p>Check back later to see my journey and the progress I have made on my new career track.</p>	
 					    	</div>
 					  </div>
 					 </div>
+
+					 <!--building another bootstrap grid for connect section-->
 
 					  <div class="container row connect">
 
